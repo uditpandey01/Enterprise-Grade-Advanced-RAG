@@ -1,0 +1,63 @@
+
+#  CORE API & WEB FRAMEWORK 
+fastapi                    
+uvicorn[standard]           
+python-dotenv               
+requests                    
+streamlit                   
+numpy                       
+pytz                        
+nest-asyncio                
+
+# GEMINI EMBEDDINGS
+google-generativeai         
+langchain-google-genai      
+
+# VECTOR DB & RETRIEVAL 
+qdrant-client              
+flashrank  
+
+# LANGCHAIN & AGENTIC ORCHESTRATION 
+langchain                   
+langgraph                   
+langchain-groq             
+langchain-google-vertexai   
+langchain-community         
+langchain-openai            
+pydantic>=2.0.0             
+
+# DATA INGESTION & DOCUMENT PARSING 
+unstructured                
+python-pptx                 
+python-docx                 
+pypdf                       
+beautifulsoup4             
+pdfplumber                  
+
+
+# GUARDRAILS 
+nemoguardrails
+langchain-nvidia-ai-endpoints
+langchain-google-vertexai     #req for nemo guardrails
+
+# EVALUATION (EVALS)
+ragas
+deepeval
+langfuse
+
+# EMBEDDINGS (SENTENCE TRANSFORMERS) 
+sentence-transformers
+langchain_google_genai
+
+
+
+# LLM GATEWAY 
+portkey-ai
+
+# OBSERVABILITY & DISTRIBUTED TRACING 
+langsmith
+logfire[fastapi,requests]
+loguru
+
+
+uvicorn
